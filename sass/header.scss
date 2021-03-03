@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+  marker: none;
+}
+
+li {
+  marker: none;
+}
+
+.header_logo {
+  width: 190px;
+}
+.main-header {
+  padding: 10px 0;
+  border-bottom: 1px solid #2acb352b;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+.main-menu .navbar-nav li {
+  position: relative;
+  margin-left: 32px;
+  display: block;
+}
+
+.main-menu .navbar-nav li:first-child {
+  margin-left: 0px;
+}
+
+li.search-icon.ml-0::marker {
+}
+.header-action ul li.search-icon::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 25px;
+  width: 1px;
+  background: #d7d7d7;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+// .shop-cart {
+//   position: relative !important;
+// }
